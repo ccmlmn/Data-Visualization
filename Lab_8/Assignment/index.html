@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Important Dates Timeline</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="main-header">
+      <div class="header-content">
+        <div class="subtitle">HISTORICAL DATA VISUALIZATION</div>
+        <h1>World Important Dates Timeline</h1>
+        <p>Explore historical events across countries, event types, outcomes, and time.</p>
+      </div>
+    </header>
+
+    <div class="dashboard">
+      <div class="controls-panel">
+        <div class="control-row">
+          <div class="control-group">
+            <label for="search-incident">Search incident</label>
+            <input type="text" id="search-incident" placeholder="Type an incident name...">
+          </div>
+          <div class="control-group">
+            <label for="filter-country">Country</label>
+            <select id="filter-country">
+              <option value="All">All countries</option>
+            </select>
+          </div>
+        </div>
+        <div class="control-row">
+          <div class="control-group">
+            <label for="filter-type">Event type</label>
+            <select id="filter-type">
+              <option value="All">All event types</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label for="filter-outcome">Outcome</label>
+            <select id="filter-outcome">
+              <option value="All">All outcomes</option>
+            </select>
+          </div>
+        </div>
+        <div class="control-row">
+          <button id="reset-filters">Reset filters</button>
+        </div>
+      </div>
+
+      <div class="summary-stats">
+        <div class="stat-card">
+          <div class="stat-title">Visible events</div>
+          <div class="stat-value" id="stat-visible-events">0</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title">Earliest year</div>
+          <div class="stat-value" id="stat-earliest-year">-</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title">Latest year</div>
+          <div class="stat-value" id="stat-latest-year">-</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title">Countries shown</div>
+          <div class="stat-value" id="stat-countries">0</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-section">
+      <div class="timeline-header">
+        <h2>Interactive historical timeline</h2>
+        <p>Scroll to zoom, drag to pan, and hover over a point for details.</p>
+      </div>
+      
+      <div id="legend-container"></div>
+      
+      <div id="timeline-container">
+        <!-- SVG will be appended here by D3 -->
+      </div>
+      
+      <p class="timeline-footer">Many events are visible. Zoom in to separate events that occur in similar years.</p>
+    </div>
+  </div>
+
+  <div id="tooltip" class="tooltip"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f6f8;
+}
+
+#network {
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.tooltip {
+    position: absolute;
+    background: #222;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 13px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+#barchart {
+    width: 900px;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.bar { cursor: pointer; }
+.bar:hover { opacity: 0.85; }
+.bar.selected { stroke: #333; stroke-width: 2; }
+
+.baxis text { font-size: 12px; }

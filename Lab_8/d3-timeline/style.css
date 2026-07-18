@@ -1,0 +1,254 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #1f2937;
+}
+
+/* Main Container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Instruction Text */
+.instruction {
+    text-align: center;
+    color: #5b6472;
+}
+
+/* Timeline Container */
+#timeline {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Timeline Main Line */
+.timeline-line {
+    stroke: #6b7280;
+    stroke-width: 4;
+}
+
+/* Vertical Event Lines */
+.event-line {
+    stroke: #9ca3af;
+    stroke-width: 2;
+}
+
+/* Event Circles */
+.event-circle {
+    cursor: pointer;
+    stroke: white;
+    stroke-width: 3;
+}
+
+/* Event Labels */
+.event-label {
+    font-size: 13px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+
+/* Date Labels */
+.date-label {
+    font-size: 12px;
+    fill: #4b5563;
+    text-anchor: middle;
+}
+
+/* Axis */
+.axis text {
+    font-size: 12px;
+}
+
+.axis path,
+.axis line {
+    stroke: #9ca3af;
+}
+
+/* Tooltip */
+.tooltip {
+    position: absolute;
+    display: none;
+    max-width: 260px;
+    padding: 12px;
+    background-color: #111827;
+    color: white;
+    border-radius: 7px;
+    font-size: 13px;
+    line-height: 1.5;
+    pointer-events: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Tooltip Heading */
+.tooltip strong {
+    font-size: 14px;
+}
+
+.container2 {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 35px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.container2 h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.container2 p {
+    text-align: center;
+    color: #5b6472;
+}
+
+#donut-chart {
+    display: flex;
+    justify-content: center;
+}
+
+/* Donut Chart Legend */
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+}
+
+.container3 {
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 35px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.container3 h1 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container3 p {
+    color: #5b6472;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* Form Styling inside Details Panel */
+.project-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background-color: #f9fafb;
+    color: #1f2937;
+    transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    outline: none;
+    height: 42px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    background-color: white;
+}
+
+.btn-submit {
+    margin-top: 10px;
+    padding: 11px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: white;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-submit:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-submit:active {
+    transform: scale(0.98);
+}
+
+/* Error message styling */
+.error-message {
+    display: none;
+    max-width: 500px;
+    margin: 15px auto 0 auto;
+    background-color: #fef2f2;
+    border: 1px solid #fca5a5;
+    color: #b91c1c;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    text-align: center;
+}

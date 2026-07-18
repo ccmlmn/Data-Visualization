@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D3 Sales Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="hero">
+      <div>
+        <h1>Interactive Sales Performance Dashboard</h1>
+      </div>
+    </header>
+
+    <section class="filters card">
+      <div class="filter-group">
+        <label for="yearFilter">Year</label>
+        <select id="yearFilter"></select>
+      </div>
+
+      <div class="filter-group">
+        <label for="categoryFilter">Category</label>
+        <select id="categoryFilter"></select>
+      </div>
+
+      <div class="filter-group">
+        <label for="shipFilter">Ship Mode</label>
+        <select id="shipFilter"></select>
+      </div>
+
+      <button id="resetBtn">Reset filters</button>
+    </section>
+
+    <section class="kpi-grid">
+      <div class="kpi card">
+        <span>Total Sales</span>
+        <strong id="kpiSales">$0</strong>
+      </div>
+
+      <div class="kpi card">
+        <span>Total Profit</span>
+        <strong id="kpiProfit">$0</strong>
+      </div>
+
+      <div class="kpi card">
+        <span>Total Orders</span>
+        <strong id="kpiOrders">0</strong>
+      </div>
+
+      <div class="kpi card">
+        <span>Average Discount</span>
+        <strong id="kpiDiscount">0%</strong>
+      </div>
+    </section>
+
+    <main class="dashboard-grid">
+      <section class="card chart-card wide">
+        <div class="chart-title">
+          <h2>Monthly Sales and Profit Trend</h2>
+          <p>Shows how sales and profit change over time.</p>
+        </div>
+        <svg id="lineChart"></svg>
+      </section>
+
+      <section class="card chart-card">
+        <div class="chart-title">
+          <h2>Sales by Category</h2>
+          <p>Donut chart based on filtered records.</p>
+        </div>
+        <svg id="donutChart"></svg>
+      </section>
+
+      <section class="card chart-card">
+        <div class="chart-title">
+          <h2>Top Sub-Categories</h2>
+          <p>Click a bar to filter by that sub-category.</p>
+        </div>
+        <svg id="barChart"></svg>
+      </section>
+
+      <section class="card chart-card wide">
+        <div class="chart-title">
+          <h2>Discount vs Profit</h2>
+          <p>Brush over points to inspect selected transactions.</p>
+        </div>
+
+        <svg id="scatterChart"></svg>
+
+        <div id="brushInfo">Brush points to see selected count.</div>
+      </section>
+    </main>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

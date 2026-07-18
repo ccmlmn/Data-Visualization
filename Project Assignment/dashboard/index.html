@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiabeticsInsight - US Diabetes Analytics Dashboard</title>
+  <meta name="description" content="Interactive analytics dashboard for US diabetes data: hospital outcomes, state prevalence, advanced visualizations, and project timeline.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link href="https://unpkg.com/vis-timeline@latest/styles/vis-timeline-graph2d.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-icon">
+      <i data-lucide="activity" style="color:#0f172a; width:32px; height:32px;"></i>
+    </div>
+      <span class="logo-text">DiabeticsInsight</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#" class="nav-link active" data-section="dashboard" id="nav-dashboard">
+        <i data-lucide="layout-dashboard"></i>
+        <span>Dashboard</span>
+      </a></li>
+      <li><a href="#" class="nav-link" data-section="interactive" id="nav-interactive">
+        <i data-lucide="sliders-horizontal"></i>
+        <span>Interactive</span>
+      </a></li>
+      <li><a href="#" class="nav-link" data-section="advanced" id="nav-advanced">
+        <i data-lucide="network"></i>
+        <span>Advanced Viz</span>
+      </a></li>
+      <li><a href="#" class="nav-link" data-section="timeline" id="nav-timeline">
+        <i data-lucide="git-commit-horizontal"></i>
+        <span>Timeline</span>
+      </a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <div class="data-badge"><span class="badge-dot"></span>Data: 1999-2008</div>
+      <div class="user-group-switch">
+        <span>User Mode:</span>
+        <select id="userGroupSelect">
+          <option value="adult">Adult</option>
+          <option value="child">Child</option>
+          <option value="elderly">Elderly</option>
+        </select>
+      </div>
+    </div>
+  </nav>
+
+  <div class="topbar">
+    <button id="menuToggle" class="menu-btn">
+      <i data-lucide="info" style="width:20px;height:20px;flex-shrink:0"></i>
+    </button>
+    <span class="topbar-title">DiabeticsInsight</span>
+  </div>
+
+  <main class="main-content" id="mainContent">
+
+    <!-- SECTION 1: DASHBOARD (Task 3) -->
+    <section id="section-dashboard" class="page-section active">
+      <div class="section-header">
+        <div>
+          <h1 class="section-title">US Diabetes Analytics</h1>
+          <p class="section-subtitle">Hospital outcomes and national prevalence - 1999 to 2008</p>
+        </div>
+        <div class="header-controls">
+          <div class="filter-group">
+            <label>Race:</label>
+            <select id="raceFilter">
+              <option value="all">All Races</option>
+              <option value="Caucasian">Caucasian</option>
+              <option value="AfricanAmerican">African American</option>
+              <option value="Hispanic">Hispanic</option>
+              <option value="Asian">Asian</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Gender:</label>
+            <select id="genderFilter">
+              <option value="all">All</option>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="kpi-grid" id="kpiGrid"></div>
+      <div class="chart-grid two-col">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div><h3>Readmission by Age Group</h3><p>30-day readmit rate per age band</p></div>
+            <div class="chart-controls">
+              <button class="btn-toggle active" data-chart="readmit-age" data-view="stacked">Stacked</button>
+              <button class="btn-toggle" data-chart="readmit-age" data-view="pct">% Rate</button>
+            </div>
+          </div>
+          <div id="chart-readmit-age" class="chart-area"></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <div><h3>Diagnosis Categories</h3><p>Visits by primary diagnosis group</p></div>
+            <div class="chart-controls">
+              <button class="btn-toggle active" data-chart="diag" data-view="total">Visits</button>
+              <button class="btn-toggle" data-chart="diag" data-view="readmit">Readmit %</button>
+            </div>
+          </div>
+          <div id="chart-diag-category" class="chart-area"></div>
+        </div>
+      </div>
+      <div class="chart-grid three-col">
+        <div class="chart-card"><div class="chart-header"><div><h3>A1C Test Results</h3><p>Blood sugar control vs readmission</p></div></div><div id="chart-a1c" class="chart-area chart-sm"></div></div>
+        <div class="chart-card"><div class="chart-header"><div><h3>Admission Types</h3><p>Emergency vs planned admissions</p></div></div><div id="chart-admission" class="chart-area chart-sm"></div></div>
+        <div class="chart-card"><div class="chart-header"><div><h3>Length of Stay</h3><p>Distribution of stay duration</p></div></div><div id="chart-los" class="chart-area chart-sm"></div></div>
+      </div>
+      <div class="chart-grid one-col">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div><h3>National Diabetes Prevalence Trend (2000-2008)</h3><p>CDC Survey: % adults diagnosed - all states median</p></div>
+            <div class="chart-controls">
+              <button class="btn-toggle active" data-chart="trend" data-view="overall">Overall</button>
+              <button class="btn-toggle" data-chart="trend" data-view="sex">By Sex</button>
+            </div>
+          </div>
+          <div id="chart-national-trend" class="chart-area chart-lg"></div>
+        </div>
+      </div>
+      <div class="chart-grid one-col">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div><h3>State Diabetes Prevalence (CDC BRFSS)</h3><p>Estimated % adults with diagnosed diabetes by state</p></div>
+            <div class="chart-controls">
+              <label style="font-size:0.8rem;color:var(--text-muted)">Year:</label>
+              <select id="mapYearSelect" class="ctrl-select">
+                <option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option>
+                <option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option>
+                <option value="2006">2006</option><option value="2007">2007</option><option value="2008" selected>2008</option>
+              </select>
+            </div>
+          </div>
+          <div id="chart-map" class="chart-area chart-xl"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: INTERACTIVE FEATURES (Task 4) -->
+    <section id="section-interactive" class="page-section">
+      <div class="section-header">
+        <div><h1 class="section-title">Interactive Explorer</h1><p class="section-subtitle">Filter, drill-down, and cross-filter the hospital dataset</p></div>
+      </div>
+      <div class="info-banner">
+        <i data-lucide="info" style="width:20px;height:20px;flex-shrink:0"></i>
+        <span>Click any bar or arc to cross-filter all charts. Click again or Reset to clear.</span>
+        <button id="crossFilterReset" class="btn-sm">Reset All</button>
+      </div>
+      <div class="chart-grid two-col">
+        <div class="chart-card"><div class="chart-header"><div><h3>Race Distribution</h3><p>Click a bar to cross-filter</p></div></div><div id="cf-race" class="chart-area"></div></div>
+        <div class="chart-card"><div class="chart-header"><div><h3>Gender Breakdown</h3><p>Click a segment to cross-filter</p></div></div><div id="cf-gender" class="chart-area"></div></div>
+      </div>
+      <div class="chart-grid two-col">
+        <div class="chart-card"><div class="chart-header"><div><h3>Insulin Usage Effect</h3><p>Insulin change vs readmission rate</p></div></div><div id="cf-insulin" class="chart-area"></div></div>
+        <div class="chart-card"><div class="chart-header"><div><h3>Discharge Disposition</h3><p>How patients left the hospital</p></div></div><div id="cf-discharge" class="chart-area"></div></div>
+      </div>
+      <div class="chart-grid one-col">
+        <div class="chart-card">
+          <div class="chart-header"><div><h3>Diagnosis Deep-Dive</h3><p>Select a category to drill into resource usage details</p></div></div>
+          <div class="diag-pills" id="diagPills"></div>
+          <div class="chart-grid three-col" style="margin-top:1rem;gap:1rem">
+            <div><div id="dd-readmit" class="chart-area chart-sm"></div><p class="chart-sublabel">30-day Readmit Rate</p></div>
+            <div><div id="dd-time" class="chart-area chart-sm"></div><p class="chart-sublabel">Avg. Hospital Days</p></div>
+            <div><div id="dd-meds" class="chart-area chart-sm"></div><p class="chart-sublabel">Avg. Medications</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="chart-grid one-col">
+        <div class="chart-card">
+          <div class="chart-header"><div><h3>Dynamic Age Explorer</h3><p>Select an age group to see full readmission breakdown</p></div></div>
+          <div class="age-selector" id="ageSelector"></div>
+          <div id="age-detail-chart" class="chart-area chart-md"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: ADVANCED VISUALIZATIONS (Task 5) -->
+    <section id="section-advanced" class="page-section">
+      <div class="section-header">
+        <div><h1 class="section-title">Advanced Visualizations</h1><p class="section-subtitle">Heat Map and Parallel Coordinates - multi-dimensional insights</p></div>
+      </div>
+      <div class="technique-card">
+        <div class="technique-badge">Technique 1</div>
+        <h2>Heat Map: Age x Diagnosis Readmission Risk</h2>
+        <div class="technique-meta">
+          <div class="technique-point"><strong>Why selected:</strong> A heat map is ideal for visualizing a 2D matrix where color encodes readmission risk across age and diagnosis simultaneously, enabling pattern detection across 90+ combinations at once.</div>
+          <div class="technique-point"><strong>Insights revealed:</strong> Patients aged 20-40 with Diabetes as primary diagnosis show anomalously high readmission rates. Circulatory conditions drive high readmission across all age groups. Injury shows lower readmission in older patients.</div>
+          <div class="technique-point"><strong>vs Traditional chart:</strong> A bar chart would require 9 separate charts to show the same data. The heat map compresses all comparisons into one scannable view.</div>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <div><h3>30-Day Readmission Rate Heatmap</h3><p>Age Group x Primary Diagnosis - darker = higher risk</p></div>
+          <div class="chart-controls">
+            <button class="btn-toggle active" data-chart="heatmap" data-view="pct_30">Readmit %</button>
+            <button class="btn-toggle" data-chart="heatmap" data-view="total">Visit Count</button>
+          </div>
+        </div>
+        <div id="chart-heatmap" class="chart-area chart-xl"></div>
+      </div>
+      <div class="technique-card" style="margin-top:2.5rem">
+        <div class="technique-badge">Technique 2</div>
+        <h2>Parallel Coordinates: Multi-Variable Patient Profile</h2>
+        <div class="technique-meta">
+          <div class="technique-point"><strong>Why selected:</strong> Parallel coordinates reveal correlations across multiple continuous variables simultaneously - stay duration, medications, lab procedures, diagnoses count - impossible to see in a 2D chart.</div>
+          <div class="technique-point"><strong>Insights revealed:</strong> High-readmission diagnosis groups cluster with longer stays and more medications. Low-readmission groups show shorter stays with fewer interventions, revealing a clear resource-risk relationship.</div>
+          <div class="technique-point"><strong>vs Traditional chart:</strong> Scatter plots show only 2 variables at once. A parallel coordinates plot with 5 axes replaces 10 separate scatter plots while preserving inter-variable structure.</div>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <div><h3>Parallel Coordinates: Patient Resource Profile by Diagnosis</h3><p>Each line = diagnosis category; colored by readmission rate</p></div>
+          <div class="chart-controls">
+            <label style="font-size:0.8rem;color:var(--text-muted)">Color by:</label>
+            <select id="pcpColorBy" class="ctrl-select">
+              <option value="pct_30">Readmit Rate</option>
+              <option value="avg_time">Avg Stay</option>
+              <option value="avg_meds">Avg Meds</option>
+            </select>
+          </div>
+        </div>
+        <div id="chart-pcp" class="chart-area chart-lg"></div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: TIMELINE (Task 6) -->
+    <section id="section-timeline" class="page-section">
+      <div class="section-header">
+        <div><h1 class="section-title">Project Timeline</h1><p class="section-subtitle">Five-month project progress - Interactive vis.js Timeline</p></div>
+      </div>
+      <div class="timeline-instructions">
+        <div class="tip-item">Scroll to zoom in/out</div>
+        <div class="tip-item">Drag to pan</div>
+        <div class="tip-item">Hover items for details</div>
+        <div class="tip-item">Click item to highlight</div>
+      </div>
+      <div class="chart-card timeline-card">
+        <div class="chart-header">
+          <div><h3>DiabeticsInsight - Project Progress</h3><p>February 2026 to July 2026</p></div>
+          <div class="chart-controls">
+            <button id="tlFitBtn" class="btn-sm btn-outline">Fit All</button>
+            <button id="tlTodayBtn" class="btn-sm">Today</button>
+          </div>
+        </div>
+        <div class="timeline-legend" id="timelineLegend"></div>
+        <div id="vis-timeline" class="timeline-container"></div>
+      </div>
+      <div class="milestone-grid" id="milestoneGrid"></div>
+    </section>
+
+  </main>
+
+  <div class="global-tooltip" id="globalTooltip"></div>
+  <script src="dashboard.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>

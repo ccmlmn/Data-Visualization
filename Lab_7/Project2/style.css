@@ -1,0 +1,178 @@
+:root {
+    --bg: #f3f6fb;
+    --card: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.hero {
+    padding: 28px 36px;
+    background: linear-gradient(135deg, #111827, #374151);
+    color: white;
+}
+
+.hero h1 {
+    margin: 0 0 8px;
+    font-size: 30px;
+}
+
+.hero p {
+    margin: 0;
+    opacity: 0.85;
+}
+
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+}
+
+.filters {
+    margin: 24px 36px;
+    padding: 18px;
+    display: flex;
+    gap: 18px;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--muted);
+}
+
+select,
+button {
+    min-width: 160px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: white;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+    background: #111827;
+    color: white;
+}
+
+.kpi-grid {
+    margin: 0 36px 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.kpi {
+    padding: 18px;
+}
+
+.kpi span {
+    display: block;
+    color: var(--muted);
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.kpi strong {
+    font-size: 25px;
+}
+
+.dashboard-grid {
+    margin: 0 36px 36px;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 20px;
+}
+
+.chart-card {
+    padding: 18px;
+    min-height: 420px;
+}
+
+.chart-card.wide {
+    min-height: 450px;
+}
+
+.chart-title h2 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.chart-title p {
+    margin: 6px 0 14px;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+svg {
+    width: 100%;
+    height: 340px;
+    overflow: visible;
+}
+
+.axis text {
+    fill: #4b5563;
+    font-size: 11px;
+}
+
+.axis path,
+.axis line {
+    stroke: #d1d5db;
+}
+
+.grid line {
+    stroke: #eef2f7;
+}
+
+.legend {
+    font-size: 12px;
+    fill: #374151;
+}
+
+.tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: #111827;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 13px;
+    opacity: 0;
+    transform: translate(-50%, -110%);
+    max-width: 240px;
+}
+
+#brushInfo {
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+@media (max-width: 1000px) {
+    .kpi-grid,
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+}

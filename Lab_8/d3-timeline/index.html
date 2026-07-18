@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Project Timeline</title>
+
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load the D3.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+
+<body>
+
+    <aside class="container3">
+        <h1>Details Panel</h1>
+        <p>Select any event point on the timeline to inspect its details here.</p>
+        
+        <div id="error-message" class="error-message"></div>
+
+        <form class="project-form">
+            <div class="form-group">
+                <label for="project-start">Project Start</label>
+                <input type="date" id="project-start">
+            </div>
+            
+            <div class="form-group">
+                <label for="project-end">Project End</label>
+                <input type="date" id="project-end">
+            </div>
+            
+            <div class="form-group">
+                <label for="project-phase">Project Phase</label>
+                <input type="text" id="project-phase" placeholder="e.g. Implementation">
+            </div>
+            
+            <button type="button" class="btn-submit">Add New Phase</button>
+        </form>
+    </aside>
+
+    <main class="container">
+
+        <h1>University Project Timeline</h1>
+
+        <p class="instruction">
+            Move the mouse over a timeline point to view its details.
+        </p>
+
+        <div id="timeline"></div>
+
+        <div id="tooltip" class="tooltip"></div>
+
+    </main>
+
+    <main class="container2">
+        <h1>Donut Chart</h1>
+
+        <p>This donut chart shows the distribution of research activities across different phases of the project.</p>
+
+        <div id="donut-chart"></div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

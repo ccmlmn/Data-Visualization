@@ -1,0 +1,1111 @@
+{
+  "kpis": {
+    "total_visits": 101766,
+    "readmit_30": 11357,
+    "readmit_30_pct": 11.2,
+    "readmit_any_pct": 46.1,
+    "avg_time": 4.4,
+    "avg_meds": 16.0,
+    "avg_lab": 43.1
+  },
+  "age_readmit": [
+    {
+      "age": "[0-10)",
+      "total": 161,
+      "no_readmit": 132,
+      "readmit_30": 3,
+      "readmit_30plus": 26,
+      "pct_30": 1.9
+    },
+    {
+      "age": "[10-20)",
+      "total": 691,
+      "no_readmit": 427,
+      "readmit_30": 40,
+      "readmit_30plus": 224,
+      "pct_30": 5.8
+    },
+    {
+      "age": "[20-30)",
+      "total": 1657,
+      "no_readmit": 911,
+      "readmit_30": 236,
+      "readmit_30plus": 510,
+      "pct_30": 14.2
+    },
+    {
+      "age": "[30-40)",
+      "total": 3775,
+      "no_readmit": 2164,
+      "readmit_30": 424,
+      "readmit_30plus": 1187,
+      "pct_30": 11.2
+    },
+    {
+      "age": "[40-50)",
+      "total": 9685,
+      "no_readmit": 5380,
+      "readmit_30": 1027,
+      "readmit_30plus": 3278,
+      "pct_30": 10.6
+    },
+    {
+      "age": "[50-60)",
+      "total": 17256,
+      "no_readmit": 9671,
+      "readmit_30": 1668,
+      "readmit_30plus": 5917,
+      "pct_30": 9.7
+    },
+    {
+      "age": "[60-70)",
+      "total": 22483,
+      "no_readmit": 12084,
+      "readmit_30": 2502,
+      "readmit_30plus": 7897,
+      "pct_30": 11.1
+    },
+    {
+      "age": "[70-80)",
+      "total": 26068,
+      "no_readmit": 13524,
+      "readmit_30": 3069,
+      "readmit_30plus": 9475,
+      "pct_30": 11.8
+    },
+    {
+      "age": "[80-90)",
+      "total": 17197,
+      "no_readmit": 8896,
+      "readmit_30": 2078,
+      "readmit_30plus": 6223,
+      "pct_30": 12.1
+    },
+    {
+      "age": "[90-100)",
+      "total": 2793,
+      "no_readmit": 1675,
+      "readmit_30": 310,
+      "readmit_30plus": 808,
+      "pct_30": 11.1
+    }
+  ],
+  "race_readmit": [
+    {
+      "race": "Caucasian",
+      "total": 76099,
+      "readmit_30": 8592,
+      "pct_30": 11.3
+    },
+    {
+      "race": "AfricanAmerican",
+      "total": 19210,
+      "readmit_30": 2155,
+      "pct_30": 11.2
+    },
+    {
+      "race": "Unknown",
+      "total": 2273,
+      "readmit_30": 188,
+      "pct_30": 8.3
+    },
+    {
+      "race": "Hispanic",
+      "total": 2037,
+      "readmit_30": 212,
+      "pct_30": 10.4
+    },
+    {
+      "race": "Other",
+      "total": 1506,
+      "readmit_30": 145,
+      "pct_30": 9.6
+    },
+    {
+      "race": "Asian",
+      "total": 641,
+      "readmit_30": 65,
+      "pct_30": 10.1
+    }
+  ],
+  "admission_type": [
+    {
+      "type": "Emergency",
+      "total": 53990,
+      "readmit_30": 6221,
+      "pct_30": 11.5
+    },
+    {
+      "type": "Elective",
+      "total": 18869,
+      "readmit_30": 1961,
+      "pct_30": 10.4
+    },
+    {
+      "type": "Urgent",
+      "total": 18480,
+      "readmit_30": 2066,
+      "pct_30": 11.2
+    },
+    {
+      "type": "Trauma Center",
+      "total": 21,
+      "readmit_30": 0,
+      "pct_30": 0.0
+    }
+  ],
+  "diagnosis_category": [
+    {
+      "category": "Circulatory",
+      "total": 30437,
+      "readmit_30": 3485,
+      "pct_30": 11.4,
+      "avg_time": 4.2,
+      "avg_meds": 17.1,
+      "avg_lab": 43.8
+    },
+    {
+      "category": "Other",
+      "total": 15404,
+      "readmit_30": 1769,
+      "pct_30": 11.5,
+      "avg_time": 4.7,
+      "avg_meds": 13.6,
+      "avg_lab": 40.7
+    },
+    {
+      "category": "Respiratory",
+      "total": 14423,
+      "readmit_30": 1403,
+      "pct_30": 9.7,
+      "avg_time": 4.2,
+      "avg_meds": 16.3,
+      "avg_lab": 44.3
+    },
+    {
+      "category": "Digestive",
+      "total": 9475,
+      "readmit_30": 1015,
+      "pct_30": 10.7,
+      "avg_time": 4.4,
+      "avg_meds": 14.7,
+      "avg_lab": 44.9
+    },
+    {
+      "category": "Diabetes",
+      "total": 8757,
+      "readmit_30": 1137,
+      "pct_30": 13.0,
+      "avg_time": 4.3,
+      "avg_meds": 14.1,
+      "avg_lab": 45.5
+    },
+    {
+      "category": "Injury",
+      "total": 6974,
+      "readmit_30": 854,
+      "pct_30": 12.2,
+      "avg_time": 4.6,
+      "avg_meds": 17.3,
+      "avg_lab": 40.7
+    },
+    {
+      "category": "Genitourinary",
+      "total": 5117,
+      "readmit_30": 555,
+      "pct_30": 10.8,
+      "avg_time": 4.2,
+      "avg_meds": 14.9,
+      "avg_lab": 46.4
+    },
+    {
+      "category": "Musculoskeletal",
+      "total": 4957,
+      "readmit_30": 471,
+      "pct_30": 9.5,
+      "avg_time": 3.9,
+      "avg_meds": 19.8,
+      "avg_lab": 32.8
+    },
+    {
+      "category": "Neoplasms",
+      "total": 3433,
+      "readmit_30": 346,
+      "pct_30": 10.1,
+      "avg_time": 5.4,
+      "avg_meds": 17.5,
+      "avg_lab": 40.1
+    },
+    {
+      "category": "Infectious",
+      "total": 2768,
+      "readmit_30": 317,
+      "pct_30": 11.5,
+      "avg_time": 5.4,
+      "avg_meds": 16.9,
+      "avg_lab": 51.6
+    }
+  ],
+  "a1c_readmit": [
+    {
+      "a1c": "Not Measured",
+      "total": 84748,
+      "readmit_30": 9681,
+      "pct_30": 11.4
+    },
+    {
+      "a1c": "High (>7%)",
+      "total": 3812,
+      "readmit_30": 383,
+      "pct_30": 10.0
+    },
+    {
+      "a1c": "Very High (>8%)",
+      "total": 8216,
+      "readmit_30": 811,
+      "pct_30": 9.9
+    },
+    {
+      "a1c": "Normal",
+      "total": 4990,
+      "readmit_30": 482,
+      "pct_30": 9.7
+    }
+  ],
+  "time_distribution": [
+    {
+      "days": 1,
+      "count": 14208
+    },
+    {
+      "days": 2,
+      "count": 17224
+    },
+    {
+      "days": 3,
+      "count": 17756
+    },
+    {
+      "days": 4,
+      "count": 13924
+    },
+    {
+      "days": 5,
+      "count": 9966
+    },
+    {
+      "days": 6,
+      "count": 7539
+    },
+    {
+      "days": 7,
+      "count": 5859
+    },
+    {
+      "days": 8,
+      "count": 4391
+    },
+    {
+      "days": 9,
+      "count": 3002
+    },
+    {
+      "days": 10,
+      "count": 2342
+    },
+    {
+      "days": 11,
+      "count": 1855
+    },
+    {
+      "days": 12,
+      "count": 1448
+    },
+    {
+      "days": 13,
+      "count": 1210
+    },
+    {
+      "days": 14,
+      "count": 1042
+    }
+  ],
+  "discharge_distribution": [
+    {
+      "label": "Discharged to Home",
+      "count": 60234
+    },
+    {
+      "label": "Transferred to SNF",
+      "count": 13954
+    },
+    {
+      "label": "Home w/ Health Service",
+      "count": 12902
+    },
+    {
+      "label": "NULL",
+      "count": 3691
+    },
+    {
+      "label": "Transferred (Short-term)",
+      "count": 2128
+    },
+    {
+      "label": "Transferred to Rehab",
+      "count": 1993
+    },
+    {
+      "label": "Expired",
+      "count": 1642
+    },
+    {
+      "label": "Transferred (Other)",
+      "count": 1184
+    },
+    {
+      "label": "Not Mapped",
+      "count": 989
+    },
+    {
+      "label": "Transferred to ICF",
+      "count": 815
+    }
+  ],
+  "insulin_readmit": [
+    {
+      "insulin": "No Insulin",
+      "total": 47383,
+      "readmit_30": 4756,
+      "pct_30": 10.0
+    },
+    {
+      "insulin": "Increased",
+      "total": 11316,
+      "readmit_30": 1470,
+      "pct_30": 13.0
+    },
+    {
+      "insulin": "Steady",
+      "total": 30849,
+      "readmit_30": 3433,
+      "pct_30": 11.1
+    },
+    {
+      "insulin": "Decreased",
+      "total": 12218,
+      "readmit_30": 1698,
+      "pct_30": 13.9
+    }
+  ],
+  "gender_readmit": [
+    {
+      "gender": "Female",
+      "total": 54708,
+      "readmit_30": 6152,
+      "pct_30": 11.2
+    },
+    {
+      "gender": "Male",
+      "total": 47055,
+      "readmit_30": 5205,
+      "pct_30": 11.1
+    }
+  ],
+  "meds_by_age": [
+    {
+      "age": "[0-10)",
+      "min": 1,
+      "q1": 4,
+      "median": 5,
+      "q3": 8,
+      "max": 34,
+      "mean": 6.2
+    },
+    {
+      "age": "[10-20)",
+      "min": 1,
+      "q1": 5,
+      "median": 7,
+      "q3": 11,
+      "max": 34,
+      "mean": 8.3
+    },
+    {
+      "age": "[20-30)",
+      "min": 1,
+      "q1": 7,
+      "median": 11,
+      "q3": 15,
+      "max": 60,
+      "mean": 12.0
+    },
+    {
+      "age": "[30-40)",
+      "min": 1,
+      "q1": 9,
+      "median": 13,
+      "q3": 18,
+      "max": 60,
+      "mean": 14.1
+    },
+    {
+      "age": "[40-50)",
+      "min": 1,
+      "q1": 10,
+      "median": 14,
+      "q3": 20,
+      "max": 60,
+      "mean": 15.4
+    },
+    {
+      "age": "[50-60)",
+      "min": 1,
+      "q1": 11,
+      "median": 15,
+      "q3": 21,
+      "max": 60,
+      "mean": 16.6
+    },
+    {
+      "age": "[60-70)",
+      "min": 1,
+      "q1": 11,
+      "median": 16,
+      "q3": 21,
+      "max": 60,
+      "mean": 17.2
+    },
+    {
+      "age": "[70-80)",
+      "min": 1,
+      "q1": 11,
+      "median": 15,
+      "q3": 20,
+      "max": 60,
+      "mean": 16.4
+    },
+    {
+      "age": "[80-90)",
+      "min": 1,
+      "q1": 10,
+      "median": 14,
+      "q3": 19,
+      "max": 60,
+      "mean": 15.3
+    },
+    {
+      "age": "[90-100)",
+      "min": 1,
+      "q1": 9,
+      "median": 13,
+      "q3": 18,
+      "max": 42,
+      "mean": 13.8
+    }
+  ],
+  "heatmap": [
+    {
+      "age": "[0-10)",
+      "category": "Respiratory",
+      "total": 10,
+      "readmit_30": 0,
+      "pct_30": 0.0
+    },
+    {
+      "age": "[0-10)",
+      "category": "Digestive",
+      "total": 3,
+      "readmit_30": 0,
+      "pct_30": 0.0
+    },
+    {
+      "age": "[0-10)",
+      "category": "Diabetes",
+      "total": 136,
+      "readmit_30": 2,
+      "pct_30": 1.5
+    },
+    {
+      "age": "[0-10)",
+      "category": "Genitourinary",
+      "total": 1,
+      "readmit_30": 0,
+      "pct_30": 0.0
+    },
+    {
+      "age": "[0-10)",
+      "category": "Other",
+      "total": 10,
+      "readmit_30": 1,
+      "pct_30": 10.0
+    },
+    {
+      "age": "[10-20)",
+      "category": "Circulatory",
+      "total": 6,
+      "readmit_30": 1,
+      "pct_30": 16.7
+    },
+    {
+      "age": "[10-20)",
+      "category": "Respiratory",
+      "total": 45,
+      "readmit_30": 2,
+      "pct_30": 4.4
+    },
+    {
+      "age": "[10-20)",
+      "category": "Digestive",
+      "total": 16,
+      "readmit_30": 1,
+      "pct_30": 6.2
+    },
+    {
+      "age": "[10-20)",
+      "category": "Diabetes",
+      "total": 475,
+      "readmit_30": 24,
+      "pct_30": 5.1
+    },
+    {
+      "age": "[10-20)",
+      "category": "Neoplasms",
+      "total": 3,
+      "readmit_30": 2,
+      "pct_30": 66.7
+    },
+    {
+      "age": "[10-20)",
+      "category": "Injury",
+      "total": 27,
+      "readmit_30": 1,
+      "pct_30": 3.7
+    },
+    {
+      "age": "[10-20)",
+      "category": "Musculoskeletal",
+      "total": 3,
+      "readmit_30": 1,
+      "pct_30": 33.3
+    },
+    {
+      "age": "[10-20)",
+      "category": "Genitourinary",
+      "total": 11,
+      "readmit_30": 0,
+      "pct_30": 0.0
+    },
+    {
+      "age": "[10-20)",
+      "category": "Other",
+      "total": 100,
+      "readmit_30": 7,
+      "pct_30": 7.0
+    },
+    {
+      "age": "[20-30)",
+      "category": "Circulatory",
+      "total": 50,
+      "readmit_30": 6,
+      "pct_30": 12.0
+    },
+    {
+      "age": "[20-30)",
+      "category": "Respiratory",
+      "total": 76,
+      "readmit_30": 5,
+      "pct_30": 6.6
+    },
+    {
+      "age": "[20-30)",
+      "category": "Digestive",
+      "total": 131,
+      "readmit_30": 24,
+      "pct_30": 18.3
+    },
+    {
+      "age": "[20-30)",
+      "category": "Diabetes",
+      "total": 679,
+      "readmit_30": 137,
+      "pct_30": 20.2
+    },
+    {
+      "age": "[20-30)",
+      "category": "Neoplasms",
+      "total": 8,
+      "readmit_30": 0,
+      "pct_30": 0.0
+    },
+    {
+      "age": "[20-30)",
+      "category": "Injury",
+      "total": 60,
+      "readmit_30": 5,
+      "pct_30": 8.3
+    },
+    {
+      "age": "[20-30)",
+      "category": "Musculoskeletal",
+      "total": 19,
+      "readmit_30": 0,
+      "pct_30": 0.0
+    },
+    {
+      "age": "[20-30)",
+      "category": "Genitourinary",
+      "total": 61,
+      "readmit_30": 4,
+      "pct_30": 6.6
+    },
+    {
+      "age": "[20-30)",
+      "category": "Other",
+      "total": 533,
+      "readmit_30": 49,
+      "pct_30": 9.2
+    },
+    {
+      "age": "[30-40)",
+      "category": "Circulatory",
+      "total": 344,
+      "readmit_30": 47,
+      "pct_30": 13.7
+    },
+    {
+      "age": "[30-40)",
+      "category": "Respiratory",
+      "total": 379,
+      "readmit_30": 41,
+      "pct_30": 10.8
+    },
+    {
+      "age": "[30-40)",
+      "category": "Digestive",
+      "total": 396,
+      "readmit_30": 54,
+      "pct_30": 13.6
+    },
+    {
+      "age": "[30-40)",
+      "category": "Diabetes",
+      "total": 906,
+      "readmit_30": 121,
+      "pct_30": 13.4
+    },
+    {
+      "age": "[30-40)",
+      "category": "Neoplasms",
+      "total": 35,
+      "readmit_30": 2,
+      "pct_30": 5.7
+    },
+    {
+      "age": "[30-40)",
+      "category": "Injury",
+      "total": 207,
+      "readmit_30": 25,
+      "pct_30": 12.1
+    },
+    {
+      "age": "[30-40)",
+      "category": "Musculoskeletal",
+      "total": 119,
+      "readmit_30": 11,
+      "pct_30": 9.2
+    },
+    {
+      "age": "[30-40)",
+      "category": "Genitourinary",
+      "total": 187,
+      "readmit_30": 17,
+      "pct_30": 9.1
+    },
+    {
+      "age": "[30-40)",
+      "category": "Other",
+      "total": 1104,
+      "readmit_30": 97,
+      "pct_30": 8.8
+    },
+    {
+      "age": "[40-50)",
+      "category": "Circulatory",
+      "total": 1891,
+      "readmit_30": 214,
+      "pct_30": 11.3
+    },
+    {
+      "age": "[40-50)",
+      "category": "Respiratory",
+      "total": 1397,
+      "readmit_30": 98,
+      "pct_30": 7.0
+    },
+    {
+      "age": "[40-50)",
+      "category": "Digestive",
+      "total": 1120,
+      "readmit_30": 131,
+      "pct_30": 11.7
+    },
+    {
+      "age": "[40-50)",
+      "category": "Diabetes",
+      "total": 1447,
+      "readmit_30": 198,
+      "pct_30": 13.7
+    },
+    {
+      "age": "[40-50)",
+      "category": "Neoplasms",
+      "total": 240,
+      "readmit_30": 24,
+      "pct_30": 10.0
+    },
+    {
+      "age": "[40-50)",
+      "category": "Injury",
+      "total": 603,
+      "readmit_30": 56,
+      "pct_30": 9.3
+    },
+    {
+      "age": "[40-50)",
+      "category": "Musculoskeletal",
+      "total": 433,
+      "readmit_30": 44,
+      "pct_30": 10.2
+    },
+    {
+      "age": "[40-50)",
+      "category": "Genitourinary",
+      "total": 429,
+      "readmit_30": 35,
+      "pct_30": 8.2
+    },
+    {
+      "age": "[40-50)",
+      "category": "Other",
+      "total": 1889,
+      "readmit_30": 203,
+      "pct_30": 10.7
+    },
+    {
+      "age": "[50-60)",
+      "category": "Circulatory",
+      "total": 5116,
+      "readmit_30": 489,
+      "pct_30": 9.6
+    },
+    {
+      "age": "[50-60)",
+      "category": "Respiratory",
+      "total": 2547,
+      "readmit_30": 194,
+      "pct_30": 7.6
+    },
+    {
+      "age": "[50-60)",
+      "category": "Digestive",
+      "total": 1704,
+      "readmit_30": 180,
+      "pct_30": 10.6
+    },
+    {
+      "age": "[50-60)",
+      "category": "Diabetes",
+      "total": 1465,
+      "readmit_30": 184,
+      "pct_30": 12.6
+    },
+    {
+      "age": "[50-60)",
+      "category": "Neoplasms",
+      "total": 549,
+      "readmit_30": 56,
+      "pct_30": 10.2
+    },
+    {
+      "age": "[50-60)",
+      "category": "Injury",
+      "total": 1115,
+      "readmit_30": 115,
+      "pct_30": 10.3
+    },
+    {
+      "age": "[50-60)",
+      "category": "Musculoskeletal",
+      "total": 927,
+      "readmit_30": 68,
+      "pct_30": 7.3
+    },
+    {
+      "age": "[50-60)",
+      "category": "Genitourinary",
+      "total": 709,
+      "readmit_30": 68,
+      "pct_30": 9.6
+    },
+    {
+      "age": "[50-60)",
+      "category": "Other",
+      "total": 2731,
+      "readmit_30": 272,
+      "pct_30": 10.0
+    },
+    {
+      "age": "[60-70)",
+      "category": "Circulatory",
+      "total": 7542,
+      "readmit_30": 860,
+      "pct_30": 11.4
+    },
+    {
+      "age": "[60-70)",
+      "category": "Respiratory",
+      "total": 3173,
+      "readmit_30": 305,
+      "pct_30": 9.6
+    },
+    {
+      "age": "[60-70)",
+      "category": "Digestive",
+      "total": 2069,
+      "readmit_30": 205,
+      "pct_30": 9.9
+    },
+    {
+      "age": "[60-70)",
+      "category": "Diabetes",
+      "total": 1376,
+      "readmit_30": 164,
+      "pct_30": 11.9
+    },
+    {
+      "age": "[60-70)",
+      "category": "Neoplasms",
+      "total": 954,
+      "readmit_30": 95,
+      "pct_30": 10.0
+    },
+    {
+      "age": "[60-70)",
+      "category": "Injury",
+      "total": 1536,
+      "readmit_30": 204,
+      "pct_30": 13.3
+    },
+    {
+      "age": "[60-70)",
+      "category": "Musculoskeletal",
+      "total": 1380,
+      "readmit_30": 114,
+      "pct_30": 8.3
+    },
+    {
+      "age": "[60-70)",
+      "category": "Genitourinary",
+      "total": 1037,
+      "readmit_30": 123,
+      "pct_30": 11.9
+    },
+    {
+      "age": "[60-70)",
+      "category": "Other",
+      "total": 2873,
+      "readmit_30": 368,
+      "pct_30": 12.8
+    },
+    {
+      "age": "[70-80)",
+      "category": "Circulatory",
+      "total": 9119,
+      "readmit_30": 1069,
+      "pct_30": 11.7
+    },
+    {
+      "age": "[70-80)",
+      "category": "Respiratory",
+      "total": 3674,
+      "readmit_30": 411,
+      "pct_30": 11.2
+    },
+    {
+      "age": "[70-80)",
+      "category": "Digestive",
+      "total": 2253,
+      "readmit_30": 232,
+      "pct_30": 10.3
+    },
+    {
+      "age": "[70-80)",
+      "category": "Diabetes",
+      "total": 1363,
+      "readmit_30": 201,
+      "pct_30": 14.7
+    },
+    {
+      "age": "[70-80)",
+      "category": "Neoplasms",
+      "total": 1023,
+      "readmit_30": 113,
+      "pct_30": 11.0
+    },
+    {
+      "age": "[70-80)",
+      "category": "Injury",
+      "total": 1790,
+      "readmit_30": 229,
+      "pct_30": 12.8
+    },
+    {
+      "age": "[70-80)",
+      "category": "Musculoskeletal",
+      "total": 1436,
+      "readmit_30": 164,
+      "pct_30": 11.4
+    },
+    {
+      "age": "[70-80)",
+      "category": "Genitourinary",
+      "total": 1356,
+      "readmit_30": 164,
+      "pct_30": 12.1
+    },
+    {
+      "age": "[70-80)",
+      "category": "Other",
+      "total": 3327,
+      "readmit_30": 406,
+      "pct_30": 12.2
+    },
+    {
+      "age": "[80-90)",
+      "category": "Circulatory",
+      "total": 5530,
+      "readmit_30": 694,
+      "pct_30": 12.5
+    },
+    {
+      "age": "[80-90)",
+      "category": "Respiratory",
+      "total": 2645,
+      "readmit_30": 298,
+      "pct_30": 11.3
+    },
+    {
+      "age": "[80-90)",
+      "category": "Digestive",
+      "total": 1520,
+      "readmit_30": 164,
+      "pct_30": 10.8
+    },
+    {
+      "age": "[80-90)",
+      "category": "Diabetes",
+      "total": 782,
+      "readmit_30": 91,
+      "pct_30": 11.6
+    },
+    {
+      "age": "[80-90)",
+      "category": "Neoplasms",
+      "total": 563,
+      "readmit_30": 48,
+      "pct_30": 8.5
+    },
+    {
+      "age": "[80-90)",
+      "category": "Injury",
+      "total": 1368,
+      "readmit_30": 177,
+      "pct_30": 12.9
+    },
+    {
+      "age": "[80-90)",
+      "category": "Musculoskeletal",
+      "total": 597,
+      "readmit_30": 65,
+      "pct_30": 10.9
+    },
+    {
+      "age": "[80-90)",
+      "category": "Genitourinary",
+      "total": 1112,
+      "readmit_30": 129,
+      "pct_30": 11.6
+    },
+    {
+      "age": "[80-90)",
+      "category": "Other",
+      "total": 2450,
+      "readmit_30": 328,
+      "pct_30": 13.4
+    },
+    {
+      "age": "[90-100)",
+      "category": "Circulatory",
+      "total": 839,
+      "readmit_30": 105,
+      "pct_30": 12.5
+    },
+    {
+      "age": "[90-100)",
+      "category": "Respiratory",
+      "total": 477,
+      "readmit_30": 49,
+      "pct_30": 10.3
+    },
+    {
+      "age": "[90-100)",
+      "category": "Digestive",
+      "total": 263,
+      "readmit_30": 24,
+      "pct_30": 9.1
+    },
+    {
+      "age": "[90-100)",
+      "category": "Diabetes",
+      "total": 128,
+      "readmit_30": 15,
+      "pct_30": 11.7
+    },
+    {
+      "age": "[90-100)",
+      "category": "Neoplasms",
+      "total": 58,
+      "readmit_30": 6,
+      "pct_30": 10.3
+    },
+    {
+      "age": "[90-100)",
+      "category": "Injury",
+      "total": 268,
+      "readmit_30": 42,
+      "pct_30": 15.7
+    },
+    {
+      "age": "[90-100)",
+      "category": "Musculoskeletal",
+      "total": 43,
+      "readmit_30": 4,
+      "pct_30": 9.3
+    },
+    {
+      "age": "[90-100)",
+      "category": "Genitourinary",
+      "total": 214,
+      "readmit_30": 15,
+      "pct_30": 7.0
+    },
+    {
+      "age": "[90-100)",
+      "category": "Other",
+      "total": 387,
+      "readmit_30": 38,
+      "pct_30": 9.8
+    }
+  ]
+}

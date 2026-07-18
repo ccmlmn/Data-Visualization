@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D3 Sales Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div>
+          <h1>Walmart Sales Assignment</h1>
+        </div>
+      </header>
+
+      <section class="filters card">
+        <div class="filter-group">
+          <label for="storeFilter">Store</label>
+          <select id="storeFilter"></select>
+        </div>
+        <div class="filter-group">
+          <label for="holidayFilter">Holiday Filter</label>
+          <select id="holidayFilter"></select>
+        </div>
+        <div class="filter-group">
+          <label for="yearFilter">Year</label>
+          <select id="yearFilter"></select>
+        </div>
+        <button id="resetBtn">Reset filters</button>
+      </section>
+
+      <main class="dashboard-grid">
+        <section class="card chart-card">
+          <div class="chart-title">
+            <h2>Weekly Sales Over Time</h2>
+            <p>Use Date on the x-axis and Weekly_Sales on the y-axis.</p>
+          </div>
+          <svg id="lineChart"></svg>
+        </section>
+
+        <section class="card chart-card">
+          <div class="chart-title">
+            <h2>Store-wise Sales</h2>
+            <p>Group by Store and highlight the top-performing store.</p>
+          </div>
+          <svg id="barChart"></svg>
+        </section>
+
+        <section class="card chart-card">
+          <div class="chart-title">
+            <h2>Holiday vs Non-Holiday Sales</h2>
+            <p>Donut chart comparing total sales during holiday and non-holiday weeks.</p>
+          </div>
+          <svg id="donutChart"></svg>
+        </section>
+
+        <section class="card chart-card">
+          <div class="chart-title">
+            <h2>Fuel Price vs Weekly Sales</h2>
+            <p>Relationship between fuel price and weekly sales.</p>
+          </div>
+          <svg id="scatterChart"></svg>
+        </section>
+      </main>
+    </div>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

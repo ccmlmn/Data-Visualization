@@ -1,0 +1,2468 @@
+{
+  "national_trend": [
+    {
+      "year": 2000,
+      "overall": 4.7,
+      "male": 6.1,
+      "female": 6.0
+    },
+    {
+      "year": 2001,
+      "overall": 5.2,
+      "male": 6.6,
+      "female": 6.5
+    },
+    {
+      "year": 2002,
+      "overall": 5.4,
+      "male": 6.7,
+      "female": 6.6
+    },
+    {
+      "year": 2003,
+      "overall": 5.7,
+      "male": 7.3,
+      "female": 7.0
+    },
+    {
+      "year": 2004,
+      "overall": 5.7,
+      "male": 7.2,
+      "female": 6.4
+    },
+    {
+      "year": 2005,
+      "overall": 6.0,
+      "male": 7.7,
+      "female": 7.2
+    },
+    {
+      "year": 2006,
+      "overall": 6.4,
+      "male": 8.0,
+      "female": 7.2
+    },
+    {
+      "year": 2007,
+      "overall": 6.9,
+      "male": 8.0,
+      "female": 8.0
+    },
+    {
+      "year": 2008,
+      "overall": 7.1,
+      "male": 8.6,
+      "female": 7.9
+    }
+  ],
+  "state_2008": [
+    {
+      "state": "OK",
+      "value": 9.7
+    },
+    {
+      "state": "AL",
+      "value": 9.6
+    },
+    {
+      "state": "TN",
+      "value": 9.3
+    },
+    {
+      "state": "WV",
+      "value": 9.1
+    },
+    {
+      "state": "NV",
+      "value": 9.0
+    },
+    {
+      "state": "VI",
+      "value": 9.0
+    },
+    {
+      "state": "GA",
+      "value": 8.7
+    },
+    {
+      "state": "LA",
+      "value": 8.6
+    },
+    {
+      "state": "MS",
+      "value": 8.6
+    },
+    {
+      "state": "TX",
+      "value": 8.2
+    },
+    {
+      "state": "GU",
+      "value": 8.2
+    },
+    {
+      "state": "AR",
+      "value": 8.0
+    },
+    {
+      "state": "FL",
+      "value": 8.0
+    },
+    {
+      "state": "MI",
+      "value": 8.0
+    },
+    {
+      "state": "SC",
+      "value": 7.8
+    },
+    {
+      "state": "PR",
+      "value": 7.8
+    },
+    {
+      "state": "MO",
+      "value": 7.7
+    },
+    {
+      "state": "NC",
+      "value": 7.7
+    },
+    {
+      "state": "OH",
+      "value": 7.7
+    },
+    {
+      "state": "HI",
+      "value": 7.6
+    },
+    {
+      "state": "KY",
+      "value": 7.5
+    },
+    {
+      "state": "IL",
+      "value": 7.4
+    },
+    {
+      "state": "IN",
+      "value": 7.3
+    },
+    {
+      "state": "AK",
+      "value": 7.2
+    },
+    {
+      "state": "AZ",
+      "value": 7.2
+    },
+    {
+      "state": "NY",
+      "value": 7.2
+    },
+    {
+      "state": "CA",
+      "value": 7.1
+    },
+    {
+      "state": "KS",
+      "value": 7.1
+    },
+    {
+      "state": "MD",
+      "value": 7.0
+    },
+    {
+      "state": "PA",
+      "value": 7.0
+    },
+    {
+      "state": "ME",
+      "value": 6.9
+    },
+    {
+      "state": "OR",
+      "value": 6.9
+    },
+    {
+      "state": "ID",
+      "value": 6.7
+    },
+    {
+      "state": "DE",
+      "value": 6.6
+    },
+    {
+      "state": "NE",
+      "value": 6.6
+    },
+    {
+      "state": "WA",
+      "value": 6.5
+    },
+    {
+      "state": "WY",
+      "value": 6.5
+    },
+    {
+      "state": "NJ",
+      "value": 6.4
+    },
+    {
+      "state": "NM",
+      "value": 6.4
+    },
+    {
+      "state": "NH",
+      "value": 6.0
+    },
+    {
+      "state": "ND",
+      "value": 6.0
+    },
+    {
+      "state": "RI",
+      "value": 6.0
+    },
+    {
+      "state": "UT",
+      "value": 6.0
+    },
+    {
+      "state": "VA",
+      "value": 5.9
+    },
+    {
+      "state": "WI",
+      "value": 5.9
+    },
+    {
+      "state": "IA",
+      "value": 5.7
+    },
+    {
+      "state": "MT",
+      "value": 5.7
+    },
+    {
+      "state": "MA",
+      "value": 5.6
+    },
+    {
+      "state": "DC",
+      "value": 5.5
+    },
+    {
+      "state": "SD",
+      "value": 5.4
+    },
+    {
+      "state": "CT",
+      "value": 5.3
+    },
+    {
+      "state": "CO",
+      "value": 5.2
+    },
+    {
+      "state": "VT",
+      "value": 4.9
+    },
+    {
+      "state": "MN",
+      "value": 4.7
+    }
+  ],
+  "state_trends": [
+    {
+      "state": "AL",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.8
+        },
+        {
+          "year": 2001,
+          "value": 7.1
+        },
+        {
+          "year": 2002,
+          "value": 6.7
+        },
+        {
+          "year": 2003,
+          "value": 5.7
+        },
+        {
+          "year": 2004,
+          "value": 7.0
+        },
+        {
+          "year": 2005,
+          "value": 8.2
+        },
+        {
+          "year": 2006,
+          "value": 8.8
+        },
+        {
+          "year": 2007,
+          "value": 8.8
+        },
+        {
+          "year": 2008,
+          "value": 9.6
+        }
+      ]
+    },
+    {
+      "state": "AK",
+      "data": [
+        {
+          "year": 2000,
+          "value": 2.9
+        },
+        {
+          "year": 2001,
+          "value": 3.9
+        },
+        {
+          "year": 2002,
+          "value": 3.2
+        },
+        {
+          "year": 2003,
+          "value": 4.8
+        },
+        {
+          "year": 2004,
+          "value": 3.0
+        },
+        {
+          "year": 2005,
+          "value": 4.5
+        },
+        {
+          "year": 2006,
+          "value": 7.2
+        },
+        {
+          "year": 2007,
+          "value": 6.1
+        },
+        {
+          "year": 2008,
+          "value": 7.2
+        }
+      ]
+    },
+    {
+      "state": "AZ",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.1
+        },
+        {
+          "year": 2001,
+          "value": 5.3
+        },
+        {
+          "year": 2002,
+          "value": 5.8
+        },
+        {
+          "year": 2003,
+          "value": 5.3
+        },
+        {
+          "year": 2004,
+          "value": 6.2
+        },
+        {
+          "year": 2005,
+          "value": 7.0
+        },
+        {
+          "year": 2006,
+          "value": 7.3
+        },
+        {
+          "year": 2007,
+          "value": 7.5
+        },
+        {
+          "year": 2008,
+          "value": 7.2
+        }
+      ]
+    },
+    {
+      "state": "AR",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.5
+        },
+        {
+          "year": 2001,
+          "value": 6.0
+        },
+        {
+          "year": 2002,
+          "value": 6.7
+        },
+        {
+          "year": 2003,
+          "value": 6.2
+        },
+        {
+          "year": 2004,
+          "value": 5.8
+        },
+        {
+          "year": 2005,
+          "value": 7.0
+        },
+        {
+          "year": 2006,
+          "value": 6.8
+        },
+        {
+          "year": 2007,
+          "value": 7.4
+        },
+        {
+          "year": 2008,
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "state": "CA",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.1
+        },
+        {
+          "year": 2001,
+          "value": 5.8
+        },
+        {
+          "year": 2002,
+          "value": 6.2
+        },
+        {
+          "year": 2003,
+          "value": 5.9
+        },
+        {
+          "year": 2004,
+          "value": 6.5
+        },
+        {
+          "year": 2005,
+          "value": 6.3
+        },
+        {
+          "year": 2006,
+          "value": 6.5
+        },
+        {
+          "year": 2007,
+          "value": 6.9
+        },
+        {
+          "year": 2008,
+          "value": 7.1
+        }
+      ]
+    },
+    {
+      "state": "CO",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.5
+        },
+        {
+          "year": 2001,
+          "value": 3.3
+        },
+        {
+          "year": 2002,
+          "value": 3.6
+        },
+        {
+          "year": 2003,
+          "value": 4.1
+        },
+        {
+          "year": 2004,
+          "value": 4.2
+        },
+        {
+          "year": 2005,
+          "value": 3.7
+        },
+        {
+          "year": 2006,
+          "value": 4.6
+        },
+        {
+          "year": 2007,
+          "value": 4.2
+        },
+        {
+          "year": 2008,
+          "value": 5.2
+        }
+      ]
+    },
+    {
+      "state": "CT",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.0
+        },
+        {
+          "year": 2001,
+          "value": 4.8
+        },
+        {
+          "year": 2002,
+          "value": 4.9
+        },
+        {
+          "year": 2003,
+          "value": 5.0
+        },
+        {
+          "year": 2004,
+          "value": 4.5
+        },
+        {
+          "year": 2005,
+          "value": 5.0
+        },
+        {
+          "year": 2006,
+          "value": 5.5
+        },
+        {
+          "year": 2007,
+          "value": 6.0
+        },
+        {
+          "year": 2008,
+          "value": 5.3
+        }
+      ]
+    },
+    {
+      "state": "DE",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.6
+        },
+        {
+          "year": 2001,
+          "value": 5.6
+        },
+        {
+          "year": 2002,
+          "value": 6.2
+        },
+        {
+          "year": 2003,
+          "value": 6.0
+        },
+        {
+          "year": 2004,
+          "value": 5.3
+        },
+        {
+          "year": 2005,
+          "value": 7.0
+        },
+        {
+          "year": 2006,
+          "value": 6.7
+        },
+        {
+          "year": 2007,
+          "value": 7.3
+        },
+        {
+          "year": 2008,
+          "value": 6.6
+        }
+      ]
+    },
+    {
+      "state": "DC",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.8
+        },
+        {
+          "year": 2001,
+          "value": 5.9
+        },
+        {
+          "year": 2002,
+          "value": 6.2
+        },
+        {
+          "year": 2003,
+          "value": 6.1
+        },
+        {
+          "year": 2004,
+          "value": 5.7
+        },
+        {
+          "year": 2005,
+          "value": 5.0
+        },
+        {
+          "year": 2006,
+          "value": 5.3
+        },
+        {
+          "year": 2007,
+          "value": 5.4
+        },
+        {
+          "year": 2008,
+          "value": 5.5
+        }
+      ]
+    },
+    {
+      "state": "FL",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.5
+        },
+        {
+          "year": 2001,
+          "value": 7.4
+        },
+        {
+          "year": 2002,
+          "value": 6.6
+        },
+        {
+          "year": 2003,
+          "value": 7.9
+        },
+        {
+          "year": 2004,
+          "value": 7.2
+        },
+        {
+          "year": 2005,
+          "value": 7.7
+        },
+        {
+          "year": 2006,
+          "value": 7.1
+        },
+        {
+          "year": 2007,
+          "value": 7.5
+        },
+        {
+          "year": 2008,
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "state": "GA",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.0
+        },
+        {
+          "year": 2001,
+          "value": 4.5
+        },
+        {
+          "year": 2002,
+          "value": 4.3
+        },
+        {
+          "year": 2003,
+          "value": 6.4
+        },
+        {
+          "year": 2004,
+          "value": 5.0
+        },
+        {
+          "year": 2005,
+          "value": 7.6
+        },
+        {
+          "year": 2006,
+          "value": 6.9
+        },
+        {
+          "year": 2007,
+          "value": 7.7
+        },
+        {
+          "year": 2008,
+          "value": 8.7
+        }
+      ]
+    },
+    {
+      "state": "HI",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.2
+        },
+        {
+          "year": 2001,
+          "value": 5.3
+        },
+        {
+          "year": 2002,
+          "value": 4.9
+        },
+        {
+          "year": 2003,
+          "value": 6.1
+        },
+        {
+          "year": 2005,
+          "value": 5.4
+        },
+        {
+          "year": 2006,
+          "value": 6.9
+        },
+        {
+          "year": 2007,
+          "value": 6.9
+        },
+        {
+          "year": 2008,
+          "value": 7.6
+        }
+      ]
+    },
+    {
+      "state": "ID",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.1
+        },
+        {
+          "year": 2001,
+          "value": 4.8
+        },
+        {
+          "year": 2002,
+          "value": 5.4
+        },
+        {
+          "year": 2003,
+          "value": 5.5
+        },
+        {
+          "year": 2004,
+          "value": 5.2
+        },
+        {
+          "year": 2005,
+          "value": 6.4
+        },
+        {
+          "year": 2006,
+          "value": 6.4
+        },
+        {
+          "year": 2007,
+          "value": 7.2
+        },
+        {
+          "year": 2008,
+          "value": 6.7
+        }
+      ]
+    },
+    {
+      "state": "IL",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.4
+        },
+        {
+          "year": 2001,
+          "value": 5.7
+        },
+        {
+          "year": 2002,
+          "value": 4.9
+        },
+        {
+          "year": 2003,
+          "value": 6.0
+        },
+        {
+          "year": 2004,
+          "value": 4.6
+        },
+        {
+          "year": 2005,
+          "value": 5.6
+        },
+        {
+          "year": 2006,
+          "value": 6.3
+        },
+        {
+          "year": 2007,
+          "value": 7.1
+        },
+        {
+          "year": 2008,
+          "value": 7.4
+        }
+      ]
+    },
+    {
+      "state": "IN",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.9
+        },
+        {
+          "year": 2001,
+          "value": 5.3
+        },
+        {
+          "year": 2002,
+          "value": 6.3
+        },
+        {
+          "year": 2003,
+          "value": 5.7
+        },
+        {
+          "year": 2004,
+          "value": 5.9
+        },
+        {
+          "year": 2005,
+          "value": 6.8
+        },
+        {
+          "year": 2006,
+          "value": 6.8
+        },
+        {
+          "year": 2007,
+          "value": 7.1
+        },
+        {
+          "year": 2008,
+          "value": 7.3
+        }
+      ]
+    },
+    {
+      "state": "IA",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.5
+        },
+        {
+          "year": 2001,
+          "value": 3.9
+        },
+        {
+          "year": 2002,
+          "value": 5.3
+        },
+        {
+          "year": 2003,
+          "value": 5.5
+        },
+        {
+          "year": 2004,
+          "value": 4.8
+        },
+        {
+          "year": 2005,
+          "value": 5.2
+        },
+        {
+          "year": 2006,
+          "value": 5.7
+        },
+        {
+          "year": 2007,
+          "value": 5.7
+        },
+        {
+          "year": 2008,
+          "value": 5.7
+        }
+      ]
+    },
+    {
+      "state": "KS",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.7
+        },
+        {
+          "year": 2001,
+          "value": 4.2
+        },
+        {
+          "year": 2002,
+          "value": 5.1
+        },
+        {
+          "year": 2003,
+          "value": 5.1
+        },
+        {
+          "year": 2004,
+          "value": 5.4
+        },
+        {
+          "year": 2005,
+          "value": 6.0
+        },
+        {
+          "year": 2006,
+          "value": 6.5
+        },
+        {
+          "year": 2007,
+          "value": 6.7
+        },
+        {
+          "year": 2008,
+          "value": 7.1
+        }
+      ]
+    },
+    {
+      "state": "KY",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.0
+        },
+        {
+          "year": 2001,
+          "value": 5.2
+        },
+        {
+          "year": 2002,
+          "value": 5.5
+        },
+        {
+          "year": 2003,
+          "value": 6.3
+        },
+        {
+          "year": 2004,
+          "value": 5.7
+        },
+        {
+          "year": 2005,
+          "value": 7.4
+        },
+        {
+          "year": 2006,
+          "value": 8.3
+        },
+        {
+          "year": 2007,
+          "value": 7.2
+        },
+        {
+          "year": 2008,
+          "value": 7.5
+        }
+      ]
+    },
+    {
+      "state": "LA",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.0
+        },
+        {
+          "year": 2001,
+          "value": 5.9
+        },
+        {
+          "year": 2002,
+          "value": 5.7
+        },
+        {
+          "year": 2003,
+          "value": 7.0
+        },
+        {
+          "year": 2004,
+          "value": 6.8
+        },
+        {
+          "year": 2005,
+          "value": 7.2
+        },
+        {
+          "year": 2006,
+          "value": 6.8
+        },
+        {
+          "year": 2007,
+          "value": 8.3
+        },
+        {
+          "year": 2008,
+          "value": 8.6
+        }
+      ]
+    },
+    {
+      "state": "ME",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.4
+        },
+        {
+          "year": 2001,
+          "value": 4.4
+        },
+        {
+          "year": 2002,
+          "value": 5.8
+        },
+        {
+          "year": 2003,
+          "value": 6.4
+        },
+        {
+          "year": 2004,
+          "value": 5.4
+        },
+        {
+          "year": 2005,
+          "value": 5.6
+        },
+        {
+          "year": 2006,
+          "value": 6.0
+        },
+        {
+          "year": 2007,
+          "value": 6.6
+        },
+        {
+          "year": 2008,
+          "value": 6.9
+        }
+      ]
+    },
+    {
+      "state": "MD",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.2
+        },
+        {
+          "year": 2001,
+          "value": 5.2
+        },
+        {
+          "year": 2002,
+          "value": 6.0
+        },
+        {
+          "year": 2003,
+          "value": 5.5
+        },
+        {
+          "year": 2004,
+          "value": 5.1
+        },
+        {
+          "year": 2005,
+          "value": 5.5
+        },
+        {
+          "year": 2006,
+          "value": 6.1
+        },
+        {
+          "year": 2007,
+          "value": 7.1
+        },
+        {
+          "year": 2008,
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "state": "MA",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.3
+        },
+        {
+          "year": 2001,
+          "value": 4.3
+        },
+        {
+          "year": 2002,
+          "value": 4.5
+        },
+        {
+          "year": 2003,
+          "value": 4.9
+        },
+        {
+          "year": 2004,
+          "value": 4.1
+        },
+        {
+          "year": 2005,
+          "value": 5.3
+        },
+        {
+          "year": 2006,
+          "value": 4.7
+        },
+        {
+          "year": 2007,
+          "value": 5.8
+        },
+        {
+          "year": 2008,
+          "value": 5.6
+        }
+      ]
+    },
+    {
+      "state": "MI",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.2
+        },
+        {
+          "year": 2001,
+          "value": 5.3
+        },
+        {
+          "year": 2002,
+          "value": 6.7
+        },
+        {
+          "year": 2003,
+          "value": 5.7
+        },
+        {
+          "year": 2004,
+          "value": 6.1
+        },
+        {
+          "year": 2005,
+          "value": 6.8
+        },
+        {
+          "year": 2006,
+          "value": 7.4
+        },
+        {
+          "year": 2007,
+          "value": 7.1
+        },
+        {
+          "year": 2008,
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "state": "MN",
+      "data": [
+        {
+          "year": 2000,
+          "value": 3.8
+        },
+        {
+          "year": 2001,
+          "value": 3.2
+        },
+        {
+          "year": 2002,
+          "value": 4.3
+        },
+        {
+          "year": 2003,
+          "value": 4.8
+        },
+        {
+          "year": 2004,
+          "value": 4.0
+        },
+        {
+          "year": 2005,
+          "value": 4.4
+        },
+        {
+          "year": 2006,
+          "value": 4.9
+        },
+        {
+          "year": 2007,
+          "value": 5.0
+        },
+        {
+          "year": 2008,
+          "value": 4.7
+        }
+      ]
+    },
+    {
+      "state": "MS",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.9
+        },
+        {
+          "year": 2001,
+          "value": 7.8
+        },
+        {
+          "year": 2002,
+          "value": 8.3
+        },
+        {
+          "year": 2003,
+          "value": 8.0
+        },
+        {
+          "year": 2004,
+          "value": 7.7
+        },
+        {
+          "year": 2005,
+          "value": 7.9
+        },
+        {
+          "year": 2006,
+          "value": 8.9
+        },
+        {
+          "year": 2007,
+          "value": 8.6
+        },
+        {
+          "year": 2008,
+          "value": 8.6
+        }
+      ]
+    },
+    {
+      "state": "MO",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.2
+        },
+        {
+          "year": 2001,
+          "value": 5.1
+        },
+        {
+          "year": 2002,
+          "value": 6.1
+        },
+        {
+          "year": 2003,
+          "value": 5.6
+        },
+        {
+          "year": 2004,
+          "value": 5.6
+        },
+        {
+          "year": 2005,
+          "value": 5.7
+        },
+        {
+          "year": 2006,
+          "value": 5.9
+        },
+        {
+          "year": 2007,
+          "value": 6.7
+        },
+        {
+          "year": 2008,
+          "value": 7.7
+        }
+      ]
+    },
+    {
+      "state": "MT",
+      "data": [
+        {
+          "year": 2000,
+          "value": 3.7
+        },
+        {
+          "year": 2001,
+          "value": 5.4
+        },
+        {
+          "year": 2002,
+          "value": 4.5
+        },
+        {
+          "year": 2003,
+          "value": 4.5
+        },
+        {
+          "year": 2004,
+          "value": 5.6
+        },
+        {
+          "year": 2005,
+          "value": 4.6
+        },
+        {
+          "year": 2006,
+          "value": 5.3
+        },
+        {
+          "year": 2007,
+          "value": 6.1
+        },
+        {
+          "year": 2008,
+          "value": 5.7
+        }
+      ]
+    },
+    {
+      "state": "NE",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.1
+        },
+        {
+          "year": 2001,
+          "value": 4.3
+        },
+        {
+          "year": 2002,
+          "value": 4.7
+        },
+        {
+          "year": 2003,
+          "value": 5.2
+        },
+        {
+          "year": 2004,
+          "value": 4.6
+        },
+        {
+          "year": 2005,
+          "value": 5.9
+        },
+        {
+          "year": 2006,
+          "value": 6.5
+        },
+        {
+          "year": 2007,
+          "value": 6.1
+        },
+        {
+          "year": 2008,
+          "value": 6.6
+        }
+      ]
+    },
+    {
+      "state": "NV",
+      "data": [
+        {
+          "year": 2000,
+          "value": 3.5
+        },
+        {
+          "year": 2001,
+          "value": 5.1
+        },
+        {
+          "year": 2002,
+          "value": 6.0
+        },
+        {
+          "year": 2003,
+          "value": 5.6
+        },
+        {
+          "year": 2004,
+          "value": 6.0
+        },
+        {
+          "year": 2005,
+          "value": 7.5
+        },
+        {
+          "year": 2006,
+          "value": 7.9
+        },
+        {
+          "year": 2007,
+          "value": 8.0
+        },
+        {
+          "year": 2008,
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "state": "NH",
+      "data": [
+        {
+          "year": 2000,
+          "value": 3.5
+        },
+        {
+          "year": 2001,
+          "value": 4.7
+        },
+        {
+          "year": 2002,
+          "value": 5.0
+        },
+        {
+          "year": 2003,
+          "value": 4.8
+        },
+        {
+          "year": 2004,
+          "value": 5.3
+        },
+        {
+          "year": 2005,
+          "value": 5.1
+        },
+        {
+          "year": 2006,
+          "value": 6.2
+        },
+        {
+          "year": 2007,
+          "value": 5.9
+        },
+        {
+          "year": 2008,
+          "value": 6.0
+        }
+      ]
+    },
+    {
+      "state": "NJ",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.6
+        },
+        {
+          "year": 2001,
+          "value": 5.9
+        },
+        {
+          "year": 2002,
+          "value": 5.1
+        },
+        {
+          "year": 2003,
+          "value": 5.7
+        },
+        {
+          "year": 2004,
+          "value": 5.6
+        },
+        {
+          "year": 2005,
+          "value": 5.8
+        },
+        {
+          "year": 2006,
+          "value": 5.7
+        },
+        {
+          "year": 2007,
+          "value": 7.3
+        },
+        {
+          "year": 2008,
+          "value": 6.4
+        }
+      ]
+    },
+    {
+      "state": "NM",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.5
+        },
+        {
+          "year": 2001,
+          "value": 4.6
+        },
+        {
+          "year": 2002,
+          "value": 4.6
+        },
+        {
+          "year": 2003,
+          "value": 4.8
+        },
+        {
+          "year": 2004,
+          "value": 5.5
+        },
+        {
+          "year": 2005,
+          "value": 6.3
+        },
+        {
+          "year": 2006,
+          "value": 6.2
+        },
+        {
+          "year": 2007,
+          "value": 6.4
+        },
+        {
+          "year": 2008,
+          "value": 6.4
+        }
+      ]
+    },
+    {
+      "state": "NY",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.4
+        },
+        {
+          "year": 2001,
+          "value": 5.4
+        },
+        {
+          "year": 2002,
+          "value": 5.5
+        },
+        {
+          "year": 2003,
+          "value": 6.1
+        },
+        {
+          "year": 2004,
+          "value": 6.3
+        },
+        {
+          "year": 2005,
+          "value": 6.0
+        },
+        {
+          "year": 2006,
+          "value": 5.9
+        },
+        {
+          "year": 2007,
+          "value": 6.0
+        },
+        {
+          "year": 2008,
+          "value": 7.2
+        }
+      ]
+    },
+    {
+      "state": "NC",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.5
+        },
+        {
+          "year": 2001,
+          "value": 5.2
+        },
+        {
+          "year": 2002,
+          "value": 5.4
+        },
+        {
+          "year": 2003,
+          "value": 6.4
+        },
+        {
+          "year": 2004,
+          "value": 6.6
+        },
+        {
+          "year": 2005,
+          "value": 6.8
+        },
+        {
+          "year": 2006,
+          "value": 7.3
+        },
+        {
+          "year": 2007,
+          "value": 7.6
+        },
+        {
+          "year": 2008,
+          "value": 7.7
+        }
+      ]
+    },
+    {
+      "state": "ND",
+      "data": [
+        {
+          "year": 2000,
+          "value": 3.5
+        },
+        {
+          "year": 2001,
+          "value": 3.8
+        },
+        {
+          "year": 2002,
+          "value": 5.0
+        },
+        {
+          "year": 2003,
+          "value": 5.0
+        },
+        {
+          "year": 2004,
+          "value": 4.5
+        },
+        {
+          "year": 2005,
+          "value": 5.4
+        },
+        {
+          "year": 2006,
+          "value": 5.7
+        },
+        {
+          "year": 2007,
+          "value": 5.4
+        },
+        {
+          "year": 2008,
+          "value": 6.0
+        }
+      ]
+    },
+    {
+      "state": "OH",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.7
+        },
+        {
+          "year": 2001,
+          "value": 5.0
+        },
+        {
+          "year": 2002,
+          "value": 5.2
+        },
+        {
+          "year": 2003,
+          "value": 6.8
+        },
+        {
+          "year": 2004,
+          "value": 6.1
+        },
+        {
+          "year": 2005,
+          "value": 7.0
+        },
+        {
+          "year": 2006,
+          "value": 5.4
+        },
+        {
+          "year": 2007,
+          "value": 7.9
+        },
+        {
+          "year": 2008,
+          "value": 7.7
+        }
+      ]
+    },
+    {
+      "state": "OK",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.5
+        },
+        {
+          "year": 2001,
+          "value": 5.8
+        },
+        {
+          "year": 2002,
+          "value": 6.0
+        },
+        {
+          "year": 2003,
+          "value": 5.9
+        },
+        {
+          "year": 2004,
+          "value": 7.2
+        },
+        {
+          "year": 2005,
+          "value": 7.8
+        },
+        {
+          "year": 2006,
+          "value": 8.5
+        },
+        {
+          "year": 2007,
+          "value": 8.7
+        },
+        {
+          "year": 2008,
+          "value": 9.7
+        }
+      ]
+    },
+    {
+      "state": "OR",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.2
+        },
+        {
+          "year": 2001,
+          "value": 5.4
+        },
+        {
+          "year": 2002,
+          "value": 5.2
+        },
+        {
+          "year": 2003,
+          "value": 5.0
+        },
+        {
+          "year": 2004,
+          "value": 6.4
+        },
+        {
+          "year": 2005,
+          "value": 6.1
+        },
+        {
+          "year": 2006,
+          "value": 6.3
+        },
+        {
+          "year": 2007,
+          "value": 6.5
+        },
+        {
+          "year": 2008,
+          "value": 6.9
+        }
+      ]
+    },
+    {
+      "state": "PA",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.3
+        },
+        {
+          "year": 2001,
+          "value": 5.0
+        },
+        {
+          "year": 2002,
+          "value": 5.7
+        },
+        {
+          "year": 2003,
+          "value": 5.9
+        },
+        {
+          "year": 2004,
+          "value": 5.7
+        },
+        {
+          "year": 2005,
+          "value": 6.3
+        },
+        {
+          "year": 2006,
+          "value": 6.5
+        },
+        {
+          "year": 2007,
+          "value": 6.9
+        },
+        {
+          "year": 2008,
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "state": "RI",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.4
+        },
+        {
+          "year": 2001,
+          "value": 5.3
+        },
+        {
+          "year": 2002,
+          "value": 4.6
+        },
+        {
+          "year": 2003,
+          "value": 5.0
+        },
+        {
+          "year": 2004,
+          "value": 4.8
+        },
+        {
+          "year": 2005,
+          "value": 5.1
+        },
+        {
+          "year": 2006,
+          "value": 6.1
+        },
+        {
+          "year": 2007,
+          "value": 6.2
+        },
+        {
+          "year": 2008,
+          "value": 6.0
+        }
+      ]
+    },
+    {
+      "state": "SC",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.7
+        },
+        {
+          "year": 2001,
+          "value": 6.4
+        },
+        {
+          "year": 2002,
+          "value": 6.7
+        },
+        {
+          "year": 2003,
+          "value": 6.8
+        },
+        {
+          "year": 2004,
+          "value": 6.4
+        },
+        {
+          "year": 2005,
+          "value": 7.6
+        },
+        {
+          "year": 2006,
+          "value": 7.7
+        },
+        {
+          "year": 2007,
+          "value": 7.9
+        },
+        {
+          "year": 2008,
+          "value": 7.8
+        }
+      ]
+    },
+    {
+      "state": "SD",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.2
+        },
+        {
+          "year": 2001,
+          "value": 4.5
+        },
+        {
+          "year": 2002,
+          "value": 5.4
+        },
+        {
+          "year": 2003,
+          "value": 6.4
+        },
+        {
+          "year": 2004,
+          "value": 5.7
+        },
+        {
+          "year": 2005,
+          "value": 5.1
+        },
+        {
+          "year": 2006,
+          "value": 5.3
+        },
+        {
+          "year": 2007,
+          "value": 5.8
+        },
+        {
+          "year": 2008,
+          "value": 5.4
+        }
+      ]
+    },
+    {
+      "state": "TN",
+      "data": [
+        {
+          "year": 2000,
+          "value": 6.4
+        },
+        {
+          "year": 2001,
+          "value": 5.4
+        },
+        {
+          "year": 2002,
+          "value": 6.7
+        },
+        {
+          "year": 2003,
+          "value": 7.8
+        },
+        {
+          "year": 2004,
+          "value": 7.4
+        },
+        {
+          "year": 2005,
+          "value": 7.0
+        },
+        {
+          "year": 2006,
+          "value": 8.8
+        },
+        {
+          "year": 2007,
+          "value": 10.8
+        },
+        {
+          "year": 2008,
+          "value": 9.3
+        }
+      ]
+    },
+    {
+      "state": "TX",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.8
+        },
+        {
+          "year": 2001,
+          "value": 5.4
+        },
+        {
+          "year": 2002,
+          "value": 6.1
+        },
+        {
+          "year": 2003,
+          "value": 6.5
+        },
+        {
+          "year": 2004,
+          "value": 6.4
+        },
+        {
+          "year": 2005,
+          "value": 6.4
+        },
+        {
+          "year": 2006,
+          "value": 6.4
+        },
+        {
+          "year": 2007,
+          "value": 8.3
+        },
+        {
+          "year": 2008,
+          "value": 8.2
+        }
+      ]
+    },
+    {
+      "state": "UT",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.6
+        },
+        {
+          "year": 2001,
+          "value": 3.5
+        },
+        {
+          "year": 2002,
+          "value": 4.0
+        },
+        {
+          "year": 2003,
+          "value": 5.4
+        },
+        {
+          "year": 2004,
+          "value": 4.8
+        },
+        {
+          "year": 2005,
+          "value": 5.6
+        },
+        {
+          "year": 2006,
+          "value": 5.3
+        },
+        {
+          "year": 2007,
+          "value": 5.5
+        },
+        {
+          "year": 2008,
+          "value": 6.0
+        }
+      ]
+    },
+    {
+      "state": "VT",
+      "data": [
+        {
+          "year": 2000,
+          "value": 2.9
+        },
+        {
+          "year": 2001,
+          "value": 3.4
+        },
+        {
+          "year": 2002,
+          "value": 4.2
+        },
+        {
+          "year": 2003,
+          "value": 4.1
+        },
+        {
+          "year": 2004,
+          "value": 3.9
+        },
+        {
+          "year": 2005,
+          "value": 4.4
+        },
+        {
+          "year": 2006,
+          "value": 4.5
+        },
+        {
+          "year": 2007,
+          "value": 5.2
+        },
+        {
+          "year": 2008,
+          "value": 4.9
+        }
+      ]
+    },
+    {
+      "state": "VA",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.8
+        },
+        {
+          "year": 2001,
+          "value": 4.3
+        },
+        {
+          "year": 2002,
+          "value": 4.9
+        },
+        {
+          "year": 2003,
+          "value": 5.2
+        },
+        {
+          "year": 2004,
+          "value": 5.9
+        },
+        {
+          "year": 2005,
+          "value": 5.5
+        },
+        {
+          "year": 2006,
+          "value": 5.5
+        },
+        {
+          "year": 2007,
+          "value": 6.2
+        },
+        {
+          "year": 2008,
+          "value": 5.9
+        }
+      ]
+    },
+    {
+      "state": "WA",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.2
+        },
+        {
+          "year": 2001,
+          "value": 5.3
+        },
+        {
+          "year": 2002,
+          "value": 5.1
+        },
+        {
+          "year": 2003,
+          "value": 6.0
+        },
+        {
+          "year": 2004,
+          "value": 6.1
+        },
+        {
+          "year": 2005,
+          "value": 5.8
+        },
+        {
+          "year": 2006,
+          "value": 6.8
+        },
+        {
+          "year": 2007,
+          "value": 6.8
+        },
+        {
+          "year": 2008,
+          "value": 6.5
+        }
+      ]
+    },
+    {
+      "state": "WV",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.5
+        },
+        {
+          "year": 2001,
+          "value": 6.5
+        },
+        {
+          "year": 2002,
+          "value": 7.4
+        },
+        {
+          "year": 2003,
+          "value": 7.4
+        },
+        {
+          "year": 2004,
+          "value": 7.4
+        },
+        {
+          "year": 2005,
+          "value": 7.9
+        },
+        {
+          "year": 2006,
+          "value": 8.5
+        },
+        {
+          "year": 2007,
+          "value": 7.7
+        },
+        {
+          "year": 2008,
+          "value": 9.1
+        }
+      ]
+    },
+    {
+      "state": "WI",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.8
+        },
+        {
+          "year": 2001,
+          "value": 4.4
+        },
+        {
+          "year": 2002,
+          "value": 4.2
+        },
+        {
+          "year": 2003,
+          "value": 4.4
+        },
+        {
+          "year": 2004,
+          "value": 4.6
+        },
+        {
+          "year": 2005,
+          "value": 5.3
+        },
+        {
+          "year": 2006,
+          "value": 4.6
+        },
+        {
+          "year": 2007,
+          "value": 5.2
+        },
+        {
+          "year": 2008,
+          "value": 5.9
+        }
+      ]
+    },
+    {
+      "state": "WY",
+      "data": [
+        {
+          "year": 2000,
+          "value": 4.1
+        },
+        {
+          "year": 2001,
+          "value": 3.6
+        },
+        {
+          "year": 2002,
+          "value": 5.4
+        },
+        {
+          "year": 2003,
+          "value": 5.4
+        },
+        {
+          "year": 2004,
+          "value": 5.1
+        },
+        {
+          "year": 2005,
+          "value": 6.2
+        },
+        {
+          "year": 2006,
+          "value": 5.7
+        },
+        {
+          "year": 2007,
+          "value": 6.1
+        },
+        {
+          "year": 2008,
+          "value": 6.5
+        }
+      ]
+    },
+    {
+      "state": "PR",
+      "data": [
+        {
+          "year": 2000,
+          "value": 5.0
+        },
+        {
+          "year": 2001,
+          "value": 5.4
+        },
+        {
+          "year": 2002,
+          "value": 6.2
+        },
+        {
+          "year": 2003,
+          "value": 7.1
+        },
+        {
+          "year": 2004,
+          "value": 6.7
+        },
+        {
+          "year": 2005,
+          "value": 8.4
+        },
+        {
+          "year": 2006,
+          "value": 8.5
+        },
+        {
+          "year": 2007,
+          "value": 8.2
+        },
+        {
+          "year": 2008,
+          "value": 7.8
+        }
+      ]
+    },
+    {
+      "state": "GU",
+      "data": [
+        {
+          "year": 2001,
+          "value": 8.0
+        },
+        {
+          "year": 2002,
+          "value": 5.7
+        },
+        {
+          "year": 2003,
+          "value": 7.9
+        },
+        {
+          "year": 2007,
+          "value": 8.2
+        },
+        {
+          "year": 2008,
+          "value": 8.2
+        }
+      ]
+    },
+    {
+      "state": "VI",
+      "data": [
+        {
+          "year": 2001,
+          "value": 5.2
+        },
+        {
+          "year": 2002,
+          "value": 5.5
+        },
+        {
+          "year": 2003,
+          "value": 6.9
+        },
+        {
+          "year": 2004,
+          "value": 5.5
+        },
+        {
+          "year": 2005,
+          "value": 5.4
+        },
+        {
+          "year": 2006,
+          "value": 6.2
+        },
+        {
+          "year": 2007,
+          "value": 6.8
+        },
+        {
+          "year": 2008,
+          "value": 9.0
+        }
+      ]
+    }
+  ]
+}
