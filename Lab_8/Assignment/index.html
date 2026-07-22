@@ -3,26 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>World Important Dates Timeline</title>
+  <title>World Important Dates Timeline & Country Analytics</title>
   
-  <!-- Fonts -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="style.css">
   <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
   <div class="container">
+    <!-- Header -->
     <header class="main-header">
       <div class="header-content">
         <div class="subtitle">HISTORICAL DATA VISUALIZATION</div>
         <h1>World Important Dates Timeline</h1>
-        <p>Explore historical events across countries, event types, outcomes, and time.</p>
+        <p>Explore historical events across countries, event types, outcomes, and time with linked interactive analytics.</p>
       </div>
     </header>
 
+    <!-- Controls & Summary Stats -->
     <div class="dashboard">
       <div class="controls-panel">
         <div class="control-row">
@@ -31,7 +33,7 @@
             <input type="text" id="search-incident" placeholder="Type an incident name...">
           </div>
           <div class="control-group">
-            <label for="filter-country">Country</label>
+            <label for="filter-country">Country filter</label>
             <select id="filter-country">
               <option value="All">All countries</option>
             </select>
@@ -51,7 +53,7 @@
             </select>
           </div>
         </div>
-        <div class="control-row">
+        <div class="control-row button-row">
           <button id="reset-filters">Reset filters</button>
         </div>
       </div>
@@ -76,19 +78,39 @@
       </div>
     </div>
 
+    <!-- Timeline Section -->
     <div class="timeline-section">
-      <div class="timeline-header">
-        <h2>Interactive historical timeline</h2>
-        <p>Scroll to zoom, drag to pan, and hover over a point for details.</p>
+      <div class="section-header">
+        <div>
+          <h2>Interactive Historical Timeline</h2>
+          <p class="section-desc">Scroll to zoom, drag to pan, and hover over a point for details.</p>
+        </div>
+        <div id="legend-container" class="legend-container"></div>
       </div>
       
-      <div id="legend-container"></div>
-      
-      <div id="timeline-container">
-        <!-- SVG will be appended here by D3 -->
-      </div>
-      
+      <div id="timeline-container"></div>
       <p class="timeline-footer">Many events are visible. Zoom in to separate events that occur in similar years.</p>
+    </div>
+
+    <!-- Linked Country Visualizations Section -->
+    <div class="linked-charts-grid">
+      <!-- Country Selection Bar Chart -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <h3>Country Event Count</h3>
+          <p>Click a bar to select/filter by country. Other bars fade. Click again or 'Reset' to clear.</p>
+        </div>
+        <div id="country-bar-chart"></div>
+      </div>
+
+      <!-- Secondary Chart: Place Name Breakdown for Selected Country -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <h3 id="secondary-chart-title">Place Names Breakdown</h3>
+          <p id="secondary-chart-desc">Select a country on the bar chart above to inspect its specific place names & event counts.</p>
+        </div>
+        <div id="secondary-bar-chart"></div>
+      </div>
     </div>
   </div>
 
